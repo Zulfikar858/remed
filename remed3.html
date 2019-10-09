@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <button onclick="urut2()">urut</button>
+  <p id="urut3"></p>
+  <script>
+  var urut = [4 , 3 , 2 , 1 , 7];
+  document.getElementById("urut3").innerHTML = urut;
+
+  function urut2(){
+    urut.sort();
+    document.getElementById("urut3").innerHTML = urut;
+  }
+
+  </script>
+</body>
+</html>
